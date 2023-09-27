@@ -1,0 +1,63 @@
+/* App.css */
+.app {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  padding: 20px;
+}
+
+header {
+  margin-bottom: 20px;
+}
+
+header img {
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+header h1 {
+  margin: 10px 0;
+  font-size: 28px;
+}
+
+header p {
+  font-size: 18px;
+  color: #666;
+}
+
+.destinations-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.destination-card {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  transition: transform 0.2s ease;
+}
+
+.destination-card:hover {
+  transform: translateY(-5px);
+}
+
+.destination-card img {
+  width: 100%;
+  max-height: 200px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.destination-card h2 {
+  font-size: 24px;
+  margin: 10px 0;
+}
+
+.destination-card p {
+  font-size: 16px;
+  color: #555;
+}
+
+/* Add any additional styling as needed */
